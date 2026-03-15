@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Analyst Terminal</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>Analyst Terminal Dashboard</h1>
+
+<div class="grid">
+
+<div class="panel">
+<h2>Live Market Chart</h2>
+<canvas id="chart"></canvas>
+</div>
+
+<div class="panel">
+<h2>Market Ticker</h2>
+<div class="ticker-wrap">
+  <div id="ticker" class="ticker"></div>
+</div>
+</div>
+
+<div class="panel">
+<h2>Signal Detector</h2>
+<p id="signal">Monitoring market...</p>
+</div>
+
+<div class="panel">
+<h2>Activity Log</h2>
+<ul id="log"></ul>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
